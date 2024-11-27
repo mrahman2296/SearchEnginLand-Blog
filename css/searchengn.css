@@ -1,0 +1,566 @@
+
+/* -----------------------------Navbarbody Section------------------------------------- */
+
+#navbarSupportedContent{
+	text-transform: uppercase;
+	position: relative;
+	position: absolute;
+	left: 20%;
+}
+
+.navbar{
+	width: 100%;
+	height: 15vh;
+    background-color: #fff;
+    /* box-shadow: 3px 5px 3px lightgray; */
+    border-bottom: 1px solid;
+}
+
+.container-fluid .navbar-brand img{
+	height: 45px;
+    position: relative;
+    left: 20%;
+    background-color: #000;
+}
+
+#navbarSupportedContent ul li{
+    padding-right: 5px;
+}
+
+#navbarSupportedContent ul a{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    font-family: serif;
+}
+
+#navbarSupportedContent .dropdown-menu{
+    z-index: 9999;
+
+}
+#navbarSupportedContent .dropdown-menu .dropdown-item{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#navbarSupportedContent .dropdown-menu .dropdown-item::before{
+    content: "\00BB";
+    margin-right: 5px;
+}
+
+#navbarSupportedContent ul a:hover{
+    color: #fff;
+    background-color: #0093ff; 
+   
+}
+.navbar-nav>li:hover ul{
+    display: block;
+}
+
+/*  #navbarSupportedContent ul li:hover ul{
+    display: block;
+}
+ */
+    
+
+/*---------------------Categry Section ---------------------*/
+
+.leftimg img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.leftimg p{
+    font-size: 19px;
+    font-weight: 600;
+    color: gray;
+}
+.leftbody a{
+    text-decoration: none;
+    color: #000;
+    /* font-family: serif; */
+}
+.leftbody p{
+    font-size: 17px;
+}
+.leftbody a:hover{
+    text-decoration: underline;
+}
+
+.rightimg img{
+    height: 98px;
+    width: 98px;
+}
+
+.center-features-category {
+    font-size: 1rem;
+    font-weight: 500;
+    color: gray;
+    margin: 0 0 0.125rem 0;
+}
+.center-features-title {
+    line-height: 1.1em;
+    letter-spacing: -.025em;
+    margin: 0 0 0.125rem 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.rightpara a{
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebartext{
+    background-color: rgba(27,20,100,.1);
+    padding: 7px;
+    width: 88%;
+}
+.sidebartext p{
+    font-size: 15px;
+}
+.adsinpt{
+    margin-bottom: 5px;
+    padding-block: 5px;
+    width: 100%;
+    font-size: 17px;
+    color: #adb5bd;
+}
+.adsbtn{
+    margin-bottom: 5px;
+    padding-block: 5px;
+    width: 100%;
+    font-size: 19px;
+    color: #fff;
+    background-color: #000;
+}
+.sidebartext a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.bottomads{
+    text-align: center;
+}
+
+/* ----------------------Bottom Section------------------------- */
+.botmpara h5{
+    font-size: 21px;
+    font-weight: 500;
+}
+.botmpara a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.botmpara p{
+    font-size: 19px;
+    font-weight: 500;
+    color: gray;
+}
+.mainpara{
+    font-size: 17px;
+    font-weight: 500;
+}
+.byname a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.byname a:hover{
+    text-decoration: underline;
+}
+
+/*---------------------bottom Section banner ---------------------*/
+
+
+.horizline{
+    border-top: 6px solid #CEdfd7;
+}
+
+
+/*--------------------RightBottom Section------------------------*/
+
+.bottmright h2{
+    font-size: 27px;
+    color: #0093ff;
+}
+
+.rightlist li{
+    list-style: none;
+    /* font-size: 18px; */
+    font-weight: 500;
+}
+.rightlist li::before{
+    content: "\00BB";
+    margin-right: 5px;
+}
+#list li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.seemorebtn a{
+    background-color: #0093ff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.seemorebtn a:hover{
+    background-color: #0093ff;
+}
+
+.smslogo{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*--------------------------------Footer Section--------------------------------------*/
+
+.site-footer{
+    background-color: #373d42fa;
+    padding-bottom: 5px;
+}
+
+.list-unstyled a{
+    text-decoration: none;
+    line-height: 2em;
+    font-size: 19px;
+    color: #fff;
+}
+.list-unstyled li a:hover{
+    color: #0093ff;
+}
+.footer-inner h3{
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+}
+#footer-button{
+    background-color: #0093ff;
+}
+.copyright{
+    color: #fff;
+    font-size: 19px;
+}
+/*--------------------------------Second Page----------------------------- */
+
+.addimg{
+    position: relative;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.upperlist{
+    position: relative;
+    right: 5%;
+}
+.upperlist ul{
+    list-style: none;
+    display: flex;
+}
+.upperlist ul a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 5px;
+    color: #0093ff;
+}
+.upperlist ul a::before{
+    content: "\00BB";
+    margin-right: 1px;
+    color: #000;
+    font-size: 15px;
+}
+.innersec h1{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 33px;
+}
+.innersec h3{
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 1.1em;
+    margin-bottom: 0.625rem;
+}
+.innersec h2{
+    margin-top: 10px;
+    font-weight: 500;
+}
+.subpara a{
+    color: #000;
+}
+.innernote h2{
+    color: #0093ff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 8px solid #0093ff;
+    padding-bottom: 10px;
+}
+.misdlist3 ul{
+    list-style: none;
+    position: relative;
+    right: 5%;
+    line-height: 2em;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.misdlist3 ul li a{
+    text-decoration: none;
+    color: #000;
+
+}
+.innersec p{
+    /* font-weight: 300; */
+    font-size: 18px;
+    line-height: 1.3em;
+    margin-bottom: 1.2rem;
+}
+.misdlist ul li{
+    line-height: 2em;
+    opacity: .7;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.misdlist2 ul li{
+    line-height: 2em;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.author{
+    font-weight: 600;
+    color: #adb5bd;
+    margin-bottom: 15px;
+}
+.testm img{
+    width: 139px;
+    height: 139px;
+    border-radius: 50%;
+    margin: auto;
+}
+.testimon h5 a{
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 1.5em;
+}
+.testimon p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.sidebarsect2{
+    background-color: rgba(27,20,100,.1);
+    padding: 5px;
+    width: 85%;
+}
+.rlttopics h3{
+    font-size: 17px;
+    color: #70767d;
+    font-weight: 500;
+}
+.rlttopics a{
+    text-decoration: none;
+    color: #000;
+    padding: 3px;
+    border: 1px solid #000;
+}
+.rlttopics a:hover{
+    color: #fff;
+    background-color: #0093ff;
+}
+
+
+
+/*-----------------------media Quries------------------------*/
+  /* Mobile */
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .navbar{
+    width: 100%;
+    height: 8vh;
+    /* background-color: #fff;
+    border-bottom: 1px solid; */
+    }
+    .nodisplay{
+        display: none;
+        border-bottom: 1px solid;
+        padding-bottom: 5px;
+    }
+
+    .leftimg img{
+        position: relative;
+        right: 5%;
+    }
+    .center-features-title{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .rightimg img {
+      height: 88px;
+      width: 98px;
+    }
+    .sidebartext {
+      background-color: rgba(27,20,100,.1);
+      padding: 7px;
+      width: 95%;
+    }
+    .botmpara h5 {
+      font-size: 16px;
+      font-weight: 500;
+      color: gray;
+}
+.botmpara p {
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+}
+.botmtext p {
+  line-height: 17px;
+  font-size: 16px;
+  text-align: justify;
+}
+.mainpara {
+  font-size: 14px;
+  font-weight: 500;
+  display: none;
+}
+.byname a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    /* display: none; */
+}
+.bottomimg img {
+  width: 100%;
+  /* height: 110px; */
+}
+
+#navbarSupportedContent {
+  text-transform: uppercase;
+  position: relative;
+  position: absolute;
+  left: 0%;
+  top: 100%;
+  z-index: 999;
+  background-color: white;
+  width: 100%;
+  margin: 1px;
+  border-bottom: 2px solid #ced4da;
+  padding-bottom: 18px;
+  border-radius: 10px;
+  /* margin-bottom: 5px; */
+}
+.navbar-nav {
+  margin-left: 40px !important;
+}
+.footer-inner h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+}
+.list-unstyled a {
+  text-decoration: none;
+  line-height: 1em;
+  font-size: 14px;
+  color: #fff;
+}
+.copyright {
+  color: #fff;
+  font-size: 16px;
+}
+.bottmright h2 {
+  font-size: 19px;
+  color: #0093ff;
+}
+#list li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.seemorebtn a {
+  background-color: #0093ff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.smslogo{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bottomimg img {
+  width: 100%;
+  height: 110px;
+}
+
+/*-------------------Second page media quries----------------*/
+.innersec h1{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 22px;
+    /* text-align: justify; */
+}
+.innersec h3 {
+  font-size: 1.150rem;
+  font-weight: 300;
+  line-height: 1.1em;
+  margin-bottom: 0.425rem;
+}
+.innersec p {
+  /* font-weight: 300; */
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+.testimon{
+    margin-left: 10px;
+}
+.upperlist ul {
+  list-style: none;
+  display: list-item;
+}
+.testimon p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+
+}
+
+
+
+/* # Tablet */
+@media only screen and (max-width: 768px)
+{   
+
+}
+
+/* # Desktop */
+@media only screen and  (min-width:769px) and (max-width: 992px)
+{
+    .bottomimg img{
+    width: 100%;
+    height: 157px;
+    }
+    .botmtext p{
+    line-height: 20px;
+    }
+
+}
+
+/* # Huge */
+@media only screen and (max-width: 1280px) 
+{
+
+}
+
+        
+
+
+
+
+
+
+
+
+
